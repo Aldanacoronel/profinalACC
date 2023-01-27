@@ -1,0 +1,16 @@
+@import "footer";
+@import "header";
+@import "preguntasfrec";
+@import "index";
+@import "signIn";
+@import "signUp";
+@import "navbar";
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #FECEDE;
+    .title{
+        margin-bottom: 50;
+    }
+}

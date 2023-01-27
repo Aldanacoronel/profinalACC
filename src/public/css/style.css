@@ -1,0 +1,88 @@
+footer {
+  width: 100%; }
+
+header {
+  background-color: black;
+  color: #FECEDE;
+  height: min-content;
+  width: max-content; }
+  header .logo-desktop {
+    margin-top: 25px;
+    margin-left: 3px; }
+
+#titulo {
+  margin-top: -2%;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-right: 44px; }
+
+.enlacesdelheader {
+  color: #FECEDE;
+  font-size: larger;
+  margin-top: 25px;
+  transition: color .5s; }
+
+.enlacesdelheader:hover {
+  color: #6fdbe1; }
+
+.enlacesdelheader2 {
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  color: #FECEDE;
+  font-size: larger;
+  transition: color .5s; }
+
+.enlacesdelheader2:hover {
+  color: #6fdbe1; }
+
+.faqvideo1 {
+  float: right;
+  margin-left: 20px; }
+
+.faqvideo2 {
+  float: left;
+  margin-right: 20px; }
+
+.faq {
+  padding: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: left; }
+  .faq h1 {
+    text-align: center;
+    margin-bottom: 2%; }
+
+body {
+  height: auto;
+  width: auto; }
+
+#fotogachi {
+  width: 100%;
+  height: 100%; }
+
+.carousel-caption {
+  color: #ffff00;
+  text-decoration: underline;
+  text-shadow: 1px  0px 0px black, 0px  1px 0px black, -1px  0px 0px black, 0px -1px 0px black; }
+
+#logosignin {
+  width: 40%; }
+
+#logosignup {
+  width: 40%; }
+
+#navbar {
+  color: #FECEDE;
+  font-size: larger;
+  justify-content: right;
+  transition: color .5s; }
+
+#navbar:hover {
+  color: #6fdbe1; }
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #FECEDE; }
+  body .title {
+    margin-bottom: 50; }

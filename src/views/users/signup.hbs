@@ -1,0 +1,66 @@
+<div class="row">
+  <div class="col-md-4 mx-auto">
+    <div class="card mt-5 bg-black text-white">
+      <div class="card-header pt-5">
+        <h4 class="text-center">
+         😸¡¡Unite a nuestra michifamilia!!😻
+        </h4>
+      </div>
+      <img
+        id="logosignup"
+        class="rounded-circle mx-auto d-block logo m-4"
+        src="https://i.postimg.cc/CxdGH19M/Sin-t-tulo.png"
+        alt="Logo"
+      />
+      <div class="card-body">
+        <form action="/users/signup" method="POST">
+          <div class="mb-3">
+            <label for="name">Nombre:</label>
+            <input
+              type="text"
+              class="form-control bg-dark text-white"
+              name="name"
+              placeholder="nombre"
+              value="{{name}}" {{!-- esto es para que si el usuario comete un error el valor de name, email, le vuelvan a aparecer cuando la pag. se refresque, la funcion esta en el ctrl --}}
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              class="form-control bg-dark text-white"
+              name="email"
+              placeholder="email"
+              value="{{email}}"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="password">Contraseña</label>
+            <input
+              type="password"
+              class="form-control bg-dark text-white"
+              name="password"
+              placeholder="contraseña"
+              value="{{password}}"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="confirm_password">Cofirmar contraseña:</label>
+            <input
+              type="password"
+              class="form-control bg-dark text-white"
+              name="confirm_password"
+              placeholder="confirmar contraseña"
+              value="{{confirm_password}}"
+            />
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary btn-success" type="submit">Registrarse!</button>
+          </div>
+        </form>
+      </div>
+      <p class="text-center"> Ya tenes una cuenta?
+        <a href="/users/signin" class="text-info"> Inicia sesión! </a></p>
+    </div>
+  </div>
+</div>
